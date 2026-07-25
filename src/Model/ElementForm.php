@@ -62,7 +62,7 @@ class ElementForm extends BaseElement
             Controller::join_links(
                 $link,
                 'element',
-                $this->owner->ID,
+                $this->ID,
                 'Form'
             )
         );
